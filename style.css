@@ -1,0 +1,49 @@
+th, td
+{
+	border: 1px solid black;
+}
+
+table
+{
+	border: 2px solid black;
+}
+
+th
+{
+	width: 75px;
+	background-color: red;
+}
+
+th.longHeader
+{
+	width: 243px;
+}
+
+td
+{
+	width: 78px;
+	background-color: yellow;
+}
+
+td.longCell
+{
+	width: 162px;
+}
+
+p.section
+{
+	font-size: 18pt;
+	color: white;
+	background-color: black;
+}
+
+p.title
+{
+	font-size: 24pt;
+}
+
+p.receipt
+{
+	font-size: 14pt;
+	font-weight: bold;
+}

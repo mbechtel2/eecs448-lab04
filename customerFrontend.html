@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script type="text/javascript"
+			src="formChecker.js">
+		</script>
+
+		<link href="style.css"
+	      	      rel="stylesheet"
+	      	      type="text/css"/>
+	</head>
+
+	<body>
+		<p class="title"> My Web Store </p>
+
+		<form action="customerBackend.php" onsubmit="return isValid()">
+			<p class="section">Items</p>
+			&emsp; Paper: $0.99 per <input id="i1" type="number" name="item1"><br>
+			&emsp; Pencils: $1.99 per <input id="i2" type="number" name="item2"><br>
+			&emsp; Pens: $2.99 per <input id="i3" type="number" name="item3"><br>
+			<br>
+
+			<p class="section">User Information</p>
+			&emsp; Username: <input id="un" type="text" name="username"><br>
+			&emsp; Password: <input id="pw" type="text" name="password"><br>
+			<br>
+
+			<p class="section"> Select shipping option: </p>
+			&emsp; <input type="radio" name="shipping" value="Free 7 day"> Free 7 day <br>
+			&emsp; <input type="radio" name="shipping" value="$50.00 over night"> $50.00 over night <br>
+			&emsp; <input type="radio" name="shipping" value="$5.00 three day"> $5.00 three day <br>
+			<br> 
+
+			<input type="submit" value="Submit Order">
+		</form>
+	</body>
+</html>
